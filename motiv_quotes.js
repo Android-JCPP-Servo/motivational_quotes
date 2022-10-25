@@ -19,7 +19,7 @@ const randomSel = () => {
     // Run through array
     for (let i = 0; i < quotes.length; i++) {
         index = Math.floor(Math.random() * 6);
-        if (i == index.length - 1) {
+        if (i == quotes.length - 1) {
             message += quotes[index];
         } else {
             message += quotes[index] + " ";

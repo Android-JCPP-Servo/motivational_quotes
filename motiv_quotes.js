@@ -22,7 +22,7 @@ const randomSel = () => {
         if (i == index.length - 1) {
             message += quotes[index];
         } else {
-            message += quotes[index] += " ";
+            message += quotes[index] + " ";
         }
     }
     return message;
